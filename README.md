@@ -84,6 +84,8 @@ In response you will get access token, copy it.
 - Header: Key `Authorization` Value `Bearer <<paste here access token>>`
 - Body: `form-data` Key `file` Value `<<upload image file>>`
 
+You can use any image you like, but for the best results, choose images that contain people or vehicles. These types of images will help you see the object detection capabilities more clearly.
+
 
 
 
