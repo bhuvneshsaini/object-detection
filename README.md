@@ -27,8 +27,8 @@ This project is a Django-based object detection that uses object detection to id
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 ```
+Download the weights yolov5s.pt form ultralytics and change the downloaded weights path in detection/load_model.py
 ### 2. Create a Virtual Environment
-
 ```bash
 python3.10 -m venv venv
 ```
@@ -44,6 +44,7 @@ Run cmd as administrator
 ### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
+
 ```
 ### 4. Set Up the Django Project
 ```bash
